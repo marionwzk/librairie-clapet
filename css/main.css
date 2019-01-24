@@ -10,7 +10,7 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -34,7 +34,7 @@ b, strong, optgroup {
 
 h1 {
   margin: 25px 0;
-  font-size: 4.5em;
+  font-size: 64px;
   font-weight: 700;
 }
 
@@ -66,7 +66,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 
@@ -249,7 +249,7 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 64px;
   margin: 0;
 }
 
