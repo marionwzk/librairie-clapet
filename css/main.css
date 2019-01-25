@@ -197,6 +197,8 @@ button {
 
 .chapo {
   font-size: 1.6em;
+  text-align: center;
+ 
 }
 
 .full-width {
@@ -223,7 +225,7 @@ button {
   margin-bottom: 35px;
   width: 960px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url('http://www.readkeypoints.com/content/images/2018/08/cover2.jpg');
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -235,7 +237,7 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -251,6 +253,7 @@ button {
 .header__title {
   font-size: 64px;
   margin: 0;
+  padding-bottom: 4%;
 }
 
 .header__subtitle {
