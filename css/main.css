@@ -12,20 +12,21 @@ body {
   padding-bottom: 75px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  color: #303044;
+  color: #1a1a1a;
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 18px;
   line-height: 1.4;
 }
 
 li {
-  margin: 5px 0;
+  margin: 6px ;
+
 }
 
 p {
-  margin: 15px 0;
+  margin: 60px ;
 }
 
 b, strong, optgroup {
@@ -92,9 +93,8 @@ button {
 
 .container {
   margin: auto;
-  padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  max-width: 960px;
+ 
 }
 
 .text-container {
@@ -198,7 +198,9 @@ button {
 .chapo {
   font-size: 1.6em;
   text-align: center;
- 
+  max-width: 600px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .full-width {
@@ -223,7 +225,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
+  max-width: 960px;
   height: 350px;
   background: url('http://www.readkeypoints.com/content/images/2018/08/cover2.jpg');
   background-size: cover;
@@ -267,6 +269,9 @@ button {
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
 }
+.nav-main__list {
+  text-align: center;
+}
 
 .nav-main__item {
   display: inline-block;
@@ -295,6 +300,12 @@ button {
   background-color: #d9d9d9;
 }
 
+.coupure
+{
+  margin: 50px auto;
+  width: 200px;
+  height: 1px; 
+}
 
 /**
 * honey-pot
