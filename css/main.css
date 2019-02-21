@@ -92,7 +92,16 @@ button {
 
 .container {
   margin: auto;
-  max-width: 960px;
+  padding:0 15px;
+  width: 960px;
+  max-width:100%
+  text-align: center;
+  ;
+ 
+}
+
+.container-big {
+  width: 1200px;
  
 }
 
@@ -196,11 +205,11 @@ button {
 
 .chapo {
   font-size: 25px;
-  text-align: center;
   max-width: 960px;
   margin-left: auto;
   margin-right:auto;
   padding-top: 85px;
+  margin:0;
 
 }
 
@@ -227,7 +236,7 @@ button {
   margin-left: auto;
   margin-bottom: 35px;
   height: 462px;
-  background: url('http://www.readkeypoints.com/content/images/2018/08/cover2.jpg');
+  background: url("../img/librairiie.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -239,7 +248,6 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 15px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -255,13 +263,15 @@ button {
 .header__title {
   font-size: 64px;
   margin: 0;
-  padding-bottom: 4%;
+  margin-bottom: 32px;
+  font-weight: 700;
 }
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 100;
+  margin-bottom:18px;
+  font-size: 42px;
+  font-weight: 200;
   text-shadow: 1px 1px 5px #000;
 }
 
@@ -280,7 +290,13 @@ button {
 .nav-main__link {
   display: block;
   padding: 10px;
+  padding-top: 19px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
   color: #fff;
+  font-size: 18px;
+  font-weight: 300;
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -345,14 +361,16 @@ button {
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -488,6 +506,7 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  margin-top: 0px;
 }
 
 /** Citations*/
@@ -498,7 +517,7 @@ button {
   font-size:24px;
   font-weight: 200;
   padding-left : 12px;
-  margin-left : 30px;
+  margin-left : 12px;
   margin-top:50px;
 }
 
@@ -514,6 +533,7 @@ text-align: right;
 
 .couverture {
   min-width: 50%;
+  margin-right: 40px;
 }
 
 .chapo2{
