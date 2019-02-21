@@ -94,7 +94,7 @@ button {
   margin: auto;
   padding:0 15px;
   width: 960px;
-  max-width:100%
+  max-width:100%;
   text-align: center;
   ;
  
@@ -329,6 +329,8 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .honey-pot {
@@ -406,6 +408,7 @@ button {
   margin: 0;
   font-size: 1.8em;
   color: #e8a27d;
+  text-align: left;
 }
 
 .news__title {
@@ -413,12 +416,14 @@ button {
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
+  text-align: left;
 }
 
 .news__text {
   margin: 0;
   font-size: 1.4em;
   line-height: 1.4;
+  text-align: left;
 }
 
 .page-list .news {
@@ -459,6 +464,21 @@ button {
 
 .news-list__news {
   grid-column: span 1;
+}
+
+.news-big {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+
+  grid-column: span 3;
+  border-bottom: 2px solid #e6e4e5;
+}
+
+.news-textbig {
+  grid-column: span 2;
+  text-align : left ;
 }
 
 /**
@@ -517,7 +537,6 @@ button {
   font-size:24px;
   font-weight: 200;
   padding-left : 12px;
-
   margin-top:50px;
 }
 
