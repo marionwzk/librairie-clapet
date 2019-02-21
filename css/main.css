@@ -568,6 +568,14 @@ font-size: 25px;
 
 }
 
+.chapo3{
+  font-size: 25px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+  
+  }
+
 .texte_2 { margin: auto;
   padding:0 15px;
   width: 960px;
