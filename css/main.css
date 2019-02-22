@@ -591,6 +591,7 @@ button {
     
     .akissi img {
       width : 100%;
+      margin-top: 20px;
     }
     
     .contenu1 {
@@ -620,9 +621,12 @@ button {
     
     .bitmap2 img {
       width: 100%;
+      margin-left: 50px;
     }
     
     .contenu3 {
-      margin-left: 40px;
+      margin-left: 60px;
+      text-align: justify;
+      margin-right: 50px;
       
     }
