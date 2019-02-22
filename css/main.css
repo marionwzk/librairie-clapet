@@ -582,3 +582,47 @@ font-size: 25px;
   max-width:100%
   text-align: justify;
   ;}
+
+/** actualités **/
+
+.akissi{
+  min-width: 24%; 
+  align-items: center;}
+
+.akissi img {
+  width : 100%;
+}
+
+.contenu1 {
+margin-left: 40px;
+}
+
+.bitmap {
+  min-width: 24%;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.bitmap img {
+width: 100%;
+}
+
+.contenu2 {
+  margin-right: 40px;
+  margin-bottom: 56px;
+}
+
+.bitmap2 {
+  min-width: 24%;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.bitmap2 img {
+  width: 100%;
+}
+
+.contenu3 {
+  margin-left: 40px;
+
+}
