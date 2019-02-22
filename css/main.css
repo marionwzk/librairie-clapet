@@ -21,7 +21,7 @@ p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textare
 
 li {
   margin: 6px ;
-
+  
 }
 
 p {
@@ -97,12 +97,12 @@ button {
   max-width:100%;
   text-align: center;
   ;
- 
+  
 }
 
 .container-big {
   width: 1200px;
- 
+  
 }
 
 .text-container {
@@ -210,7 +210,7 @@ button {
   margin-right:auto;
   padding-top: 85px;
   margin:0;
-
+  
 }
 
 .full-width {
@@ -476,7 +476,7 @@ button {
   grid-gap: 35px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-
+  
   grid-column: span 3;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -546,9 +546,9 @@ button {
 }
 
 .auteur-citation {
-font-size:12px;
-text-align: right;
-
+  font-size:12px;
+  text-align: right;
+  
 }
 
 .colonne {
@@ -561,20 +561,20 @@ text-align: right;
 }
 
 .chapo2{
-font-size: 25px;
+  font-size: 25px;
   max-width: 960px;
   margin-left: auto;
   margin-right:auto;
-
+  
 }
 
 .chapo3{
   font-size: 25px;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right:auto;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right:auto;
   
-  }
+}
 
 .texte_2 { margin: auto;
   padding:0 15px;
@@ -582,47 +582,47 @@ font-size: 25px;
   max-width:100%
   text-align: justify;
   ;}
-
-/** actualités **/
-
-.akissi{
-  min-width: 24%; 
-  align-items: center;}
-
-.akissi img {
-  width : 100%;
-}
-
-.contenu1 {
-margin-left: 40px;
-}
-
-.bitmap {
-  min-width: 24%;
-  align-items: center;
-  margin-top: 32px;
-}
-
-.bitmap img {
-width: 100%;
-}
-
-.contenu2 {
-  margin-right: 40px;
-  margin-bottom: 56px;
-}
-
-.bitmap2 {
-  min-width: 24%;
-  align-items: center;
-  margin-top: 28px;
-}
-
-.bitmap2 img {
-  width: 100%;
-}
-
-.contenu3 {
-  margin-left: 40px;
-
-}
+  
+  /** actualités **/
+  
+  .akissi{
+    min-width: 24%; 
+    align-items: center;}
+    
+    .akissi img {
+      width : 100%;
+    }
+    
+    .contenu1 {
+      margin-left: 40px;
+    }
+    
+    .bitmap {
+      min-width: 24%;
+      align-items: center;
+      margin-top: 32px;
+    }
+    
+    .bitmap img {
+      width: 100%;
+    }
+    
+    .contenu2 {
+      margin-right: 40px;
+      margin-bottom: 56px;
+    }
+    
+    .bitmap2 {
+      min-width: 24%;
+      align-items: center;
+      margin-top: 28px;
+    }
+    
+    .bitmap2 img {
+      width: 100%;
+    }
+    
+    .contenu3 {
+      margin-left: 40px;
+      
+    }
